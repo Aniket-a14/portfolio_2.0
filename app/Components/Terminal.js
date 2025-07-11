@@ -211,7 +211,7 @@ export default function Terminal() {
     resume: () => [
       "Downloading Resume...",
       "",
-      `Click here to download: <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer" download="Aniket_cv.pdf" class="text-blue-400 hover:underline">Aniket_cv.pdf</a>`,
+      `Click here to download: <a href="/aniket_cv.pdf" download target="_blank" rel="noopener noreferrer" download="Aniket_cv.pdf" class="text-blue-400 hover:underline">Aniket_cv.pdf</a>`,
       "",
       "Your browser may prompt you to save the file.",
       "",

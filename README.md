@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wizard Portfolio Terminal
+
+This is an interactive portfolio built with [Next.js](https://nextjs.org), featuring a terminal-inspired UI, animated boot sequence, and modern design. Explore projects, skills, and more using terminal commands.
+
+## Features
+
+- **Animated Boot Loader:** Simulates a system boot with progress bar and system info.
+- **Terminal UI:** Type commands like `help`, `about`, `projects`, `skills`, `contact`, `education`, `resume`, `sudo`, and `clear` to interact.
+- **Responsive Design:** Optimized for desktop and mobile.
+- **3D Tilted Card:** Showcases profile with interactive effects.
+- **Modern Stack:** Next.js App Router, Tailwind CSS, Framer Motion, Radix UI, and custom components.
 
 ## Getting Started
 
@@ -14,23 +24,55 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the main page by modifying [`app/page.js`](app/page.js). The app auto-updates as you edit files.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+app/
+  Components/
+    Body.js
+    Footer.js
+    Loader.js
+    Navbar.js
+    Terminal.js
+  globals.css
+  layout.js
+  page.js
+components/
+  ui/
+    button.jsx
+    sheet.jsx
+    TiltedCard.jsx
+public/
+  favicon.ico
+  profile.jpeg
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Terminal Commands
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `help` – List available commands
+- `about` – Info about Aniket Saha
+- `projects` – Featured projects with live links
+- `skills` – Technical skills overview
+- `contact` – Contact and social info
+- `education` – Education and certifications
+- `resume` – Download resume
+- `sudo` – Fun developer stats & easter eggs
+- `clear` – Clear terminal output
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Fonts
 
-## Deploy on Vercel
+Uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to load [Geist](https://vercel.com/font).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Deploy easily on [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+See [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying) for details.
+
+## License
+
+© 2025 Aniket Saha.

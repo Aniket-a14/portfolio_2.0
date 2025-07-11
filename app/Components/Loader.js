@@ -91,7 +91,6 @@ export default function Loader({ onLoadingComplete }) {
           </div>
         </div>
 
-        {/* Mobile Pattern - Diagonal lines */}
         <div className="md:hidden">
           <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -113,8 +112,8 @@ export default function Loader({ onLoadingComplete }) {
               </div>
               <div className="text-sm md:text-lg text-green-300">Version 3.1.4 LTS</div>
               <div className="text-xs md:text-sm text-green-600 mt-1">
-                <span className="hidden sm:inline">Copyright (c) 2025 Aniket Saha designs. All rights reserved.</span>
-                <span className="sm:hidden">© 2025 Aniket Saha designs</span>
+                <span className="hidden sm:inline">Copyright (c) 2025 Aniket Saha Designs. All rights reserved.</span>
+                <span className="sm:hidden">© 2025 Aniket Saha Designs</span>
               </div>
             </div>
             <div className="text-center md:text-right text-xs md:text-sm text-green-600">
@@ -126,7 +125,7 @@ export default function Loader({ onLoadingComplete }) {
         </div>
 
         <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
-          <div className="flex-1 p-4 md:p-8 overflow-y-hidden">
+          <div className="flex-1 p-4 md:p-8 overflow-y-auto">
             <div className="mb-4 md:mb-6">
               <h2 className="text-lg md:text-xl font-bold text-green-300 mb-3 md:mb-4">System Boot Log</h2>
               <div className="space-y-1 md:space-y-2">
@@ -221,7 +220,7 @@ export default function Loader({ onLoadingComplete }) {
               <div className="text-xs text-green-600 space-y-1">
                 <div className="text-green-300 font-semibold mb-2">Hardware</div>
                 <div className="space-y-0.5">
-                  <div>CPU: Amd Ryzen 5600G</div>
+                  <div>CPU: AMD Ryzen 5600g</div>
                   <div>Memory: 32GB DDR5</div>
                   <div className="hidden sm:block">GPU: RTX 2060 Super</div>
                   <div>Storage: 1TB NVMe</div>

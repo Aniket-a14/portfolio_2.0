@@ -125,7 +125,7 @@ export default function Loader({ onLoadingComplete }) {
         </div>
 
         <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
-          <div className="flex-1 p-4 md:p-8 overflow-y-auto">
+          <div className="hidden lg:block flex-1 p-4 md:p-8 overflow-y-auto">
             <div className="mb-4 md:mb-6">
               <h2 className="text-lg md:text-xl font-bold text-green-300 mb-3 md:mb-4">System Boot Log</h2>
               <div className="space-y-1 md:space-y-2">
